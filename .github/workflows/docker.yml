@@ -8,4 +8,4 @@ jobs:
   build:
     uses: unict-dmi/reusable-workflows/.github/workflows/docker.yml@main
     with:
-      repo_name: ${{ github.repository }}
+      repo_ref: ${{ github.repository }}
