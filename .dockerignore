@@ -1,0 +1,4 @@
+/.DS_Store
+/utils/__pycache__
+/data
+/docker_build.sh
