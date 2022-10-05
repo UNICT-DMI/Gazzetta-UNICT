@@ -81,25 +81,28 @@ class Site:
 
         message = get_formatted_message(row, self.headers) 
 
-        message += "\n\n*Sito*: " + escape_char(self.link);
+        message += "\n\n*[*" + "[Source]" + "(" + escape_char(self.link) + ")" + "*]*";
+
 
         attachments = []
-        tags = []
+        tags = [ "*[" + self.name + "]*" ]
+        footer_tags = []
 
         if needs_sending['announcement']:
             attachments += self.get_asp_pdf(tr.find_all('td')[2], "odg.pdf")
+            footer_tags += ["_Ordine del Giorno_"]
         if needs_sending['odgagg']:
             attachments += self.get_asp_pdf(tr.find_all('td')[3], "odgagg.pdf")
-            tags += ["*[OdG Aggiuntivo]*"]
+            footer_tags += ["_OdG Aggiuntivo_"]
         if needs_sending['pdf_report']:
             attachments += self.get_pdf_report(tr.find_all('td')[4])
-            tags += ["*[Resoconto seduta]*"] 
+            footer_tags += ["_Resoconto seduta_"] 
 
         pdf_text = get_pdf_text(attachments)
 
         tags += match_regex_tag(pdf_text + message)
 
-        message =  '\n'.join(tags) + '\n\n' + message
+        message =  '\n'.join(tags) + '\n\n' + message + '\n\n' +'\n'.join(footer_tags)
 
         self.bot.send_telegram_announcements(attachments, message, tags == [])
 
