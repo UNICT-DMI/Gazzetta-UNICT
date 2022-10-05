@@ -1,0 +1,28 @@
+-
+	name: "Consiglio di Amministrazione"
+	link: "https://www.oocc.unict.it/oocc/vis_verb.asp?oocc=1"
+	token: "1234567890abcdefghilmnopqrstuvwxyx:"
+	chat_id: AAAAAAAAAAAAAAAAAA
+	chat_id_dev: 
+		- AAAAAAAAAAAAAAAAAA
+-
+	name: "Senato Accademico"
+	link: "https://www.oocc.unict.it/oocc/vis_verb.asp?oocc=2"
+	token: "1234567890abcdefghilmnopqrstuvwxyx:"
+	chat_id: AAAAAAAAAAAAAAAAAA
+	chat_id_dev: 
+		- AAAAAAAAAAAAAAAAAA
+-
+	name: "Seduta congiunta Senato Accademico e Consiglio di Amministrazione"
+	link: "https://www.oocc.unict.it/oocc/vis_verb.asp?oocc=3"
+	token: "1234567890abcdefghilmnopqrstuvwxyx:"
+	chat_id: AAAAAAAAAAAAAAAAAA
+	chat_id_dev: 
+		- AAAAAAAAAAAAAAAAAA
+-
+	name: "Consiglio di Amministrazione Toscano Scuderi"
+	link: "https://www.oocc.unict.it/oocc/vis_verb.asp?oocc=4"
+	token: "1234567890abcdefghilmnopqrstuvwxyx:"
+	chat_id: AAAAAAAAAAAAAAAAAA
+	chat_id_dev: 
+		- AAAAAAAAAAAAAAAAAA

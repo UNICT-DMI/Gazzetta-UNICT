@@ -1,0 +1,7 @@
+bs4
+requests
+urllib3
+pyyaml
+html5lib
+PyPDF2
+pdfkit
