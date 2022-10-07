@@ -3,6 +3,13 @@
 [Live Demo](https://t.me/unictnews)  
 [Live Demo DEV](https://t.me/gazzettaUNICTDev)
 
+Questo progetto consiste nella realizzazione di un software che permetta di ripubblicare in un canale Telegram tutti i verbali degli organi superiori universitari studenteschi, ovvero:
+
+- 🟡 Senato Accademico
+- 🔴 Consiglio di Amministrazione
+- 🟣 Nucleo di Valutazione
+- 🟤 Consulta degli studenti
+
 ## Installation
 
 ### Docker
