@@ -3,7 +3,7 @@
 [Live Demo](https://t.me/unictnews)  
 [Live Demo DEV](https://t.me/gazzettaUNICTDev)
 
-Questo progetto consiste nella realizzazione di un software che permetta di ripubblicare in un canale Telegram tutti i verbali degli organi superiori universitari studenteschi, ovvero:
+This project consists of a script that republishes continuously, in a specific telegram channel, all the verbals and documents about different higher organs that are the following:
 
 - 🟡 Senato Accademico
 - 🔴 Consiglio di Amministrazione
