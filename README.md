@@ -8,7 +8,7 @@ This project consists of a script that republishes continuously, in a specific t
 - 🟡 Senato Accademico
 - 🔴 Consiglio di Amministrazione
 - 🟣 Nucleo di Valutazione
-- 🟤 Consulta degli studenti
+<!-- - 🟤 Consulta degli studenti -->
 
 ## Installation
 
