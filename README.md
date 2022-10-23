@@ -3,6 +3,13 @@
 [Live Demo](https://t.me/unictnews)  
 [Live Demo DEV](https://t.me/gazzettaUNICTDev)
 
+This project consists of a script that republishes continuously, in a specific telegram channel, all the verbals and documents about different higher organs that are the following:
+
+- 🟡 Senato Accademico
+- 🔴 Consiglio di Amministrazione
+- 🟣 Nucleo di Valutazione
+<!-- - 🟤 Consulta degli studenti -->
+
 ## Installation
 
 ### Docker
