@@ -81,7 +81,7 @@ class Site:
 
         message = get_formatted_message(row, self.headers) 
 
-        message += "\n\n*[*" + "[Source]" + "(" + escape_char(self.link) + ")" + "*]*";
+        message += "\n\n*[*" + "[Source]" + "(" + self.link + ")" + "*]*";
 
 
         attachments = []
@@ -97,6 +97,8 @@ class Site:
         if needs_sending['pdf_report']:
             attachments += self.get_pdf_report(tr.find_all('td')[4])
             footer_tags += ["_Resoconto seduta_"] 
+        if needs_sending['verbale']:
+            footer_tags += ["_Pubblicato il Verbale della Seduta_"] 
 
         pdf_text = get_pdf_text(attachments)
 
